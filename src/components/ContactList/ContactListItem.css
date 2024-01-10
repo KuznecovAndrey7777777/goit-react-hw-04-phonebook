@@ -1,0 +1,20 @@
+.ContactListItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 0; 
+}
+
+.ContactListItem button {
+  padding: 10px;
+  border: 1px solid #007bff; 
+  background-color: #007bff;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.ContactListItem button:hover {
+  background-color: #0056b3; 
+}
